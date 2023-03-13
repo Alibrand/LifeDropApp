@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "21944929273",
+    "project_id": "lifedrop-731ce",
+    "storage_bucket": "lifedrop-731ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21944929273:android:b57c6d1aa79a546a770b28",
+        "android_client_info": {
+          "package_name": "com.ksacp2022.lifedrop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21944929273-i3svk08l5mf0g44kq28j1t1e4ua095fq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASGjAwSGRYlLIp1EevL86ge6R4XtMDuA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21944929273-i3svk08l5mf0g44kq28j1t1e4ua095fq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

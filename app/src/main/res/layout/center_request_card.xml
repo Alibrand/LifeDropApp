@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="15dp"
+    android:minHeight="150dp"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/card_back"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_marginVertical="10dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            app:tint="@color/bloody"
+            android:src="@drawable/ic_baseline_request_24"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+        <TextView
+            android:id="@+id/center_name"
+            android:textSize="15sp"
+            android:text="Name"
+            android:textStyle="bold"
+            android:textColor="@color/bloody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_marginVertical="10dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            app:tint="#444444"
+            android:src="@drawable/ic_baseline_calendar_today_24"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+        <TextView
+            android:id="@+id/created_at"
+            android:textSize="15sp"
+            android:text="Date"
+            android:textStyle="bold"
+            android:textColor="#444444"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <TextView
+        android:id="@+id/status"
+        android:textStyle="bold"
+        android:textColor="@color/bloody"
+         android:layout_marginBottom="5dp"
+        android:text="Status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <View
+        android:background="@color/bloody"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:paddingVertical="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatButton
+            android:tooltipText="Open Profile"
+            android:id="@+id/call"
+            android:drawableTop="@drawable/ic_baseline_call_24"
+            android:textAllCaps="false"
+            android:background="@null"
+            android:layout_weight="1"
+            android:text="Call"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:tooltipText="Open Profile"
+            android:id="@+id/chat"
+            android:drawableTop="@drawable/ic_baseline_chat_24"
+            android:textAllCaps="false"
+            android:background="@null"
+            android:layout_weight="1"
+            android:text="Chat"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/location"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawableTop="@drawable/ic_baseline_location_on_24"
+            android:text="Location"
+            android:textSize="12sp"
+            android:textAllCaps="false"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/approve"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawableTop="@drawable/ic_baseline_check_circle_24"
+            android:text="Approve"
+            android:textSize="12sp"
+            android:textAllCaps="false"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/reject"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:drawableTop="@drawable/ic_baseline_do_disturb_on_24"
+            android:textAllCaps="false"
+            android:text="Reject"
+            android:textSize="12sp"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
